@@ -1,0 +1,208 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Silvio Sampaio",
+      "email": "silvio@teste.com",
+      "password": "123"
+    },
+    {
+      "id": 2,
+      "name": "Omar Sampaio",
+      "email": "omar@teste.com",
+      "password": "123"
+    },
+    {
+      "name": "TEste 1",
+      "email": "Teste1@teste.com",
+      "password": "123",
+      "id": 3
+    },
+    {
+      "name": "Usuário Criado",
+      "email": "criado@teste.com",
+      "password": "123",
+      "id": 4
+    }
+  ],
+  "feed": {
+    "stories": [
+      {
+        "id": 1,
+        "cover": "https://picsum.photos/500",
+        "owner": {
+          "username": "teste123",
+          "photo": "https://picsum.photos/50"
+        },
+        "createdAt": "2022-04-21T12:32"
+      }
+    ],
+    "posts": [
+      {
+        "id": 1,
+        "cover": "https://picsum.photos/500",
+        "description": "Interview: Shoe Designer John Fluevog On New Book, Spirituality And ‘Slow Fashion’",
+        "isLiked": true,
+        "likeInfos": {
+          "photos": [
+            "https://picsum.photos/50",
+            "https://picsum.photos/50",
+            "https://picsum.photos/50"
+          ],
+          "description": "Liked by 10,098"
+        },
+        "owner": {
+          "username": "teste123",
+          "photo": "https://picsum.photos/50"
+        },
+        "createdAt": "2022-04-21T12:32"
+      },
+      {
+        "id": 2,
+        "cover": "https://picsum.photos/500",
+        "description": "Interview: Shoe Designer John Fluevog On New Book, Spirituality And ‘Slow Fashion’",
+        "isLiked": true,
+        "likeInfos": {
+          "photos": [
+            "https://picsum.photos/50",
+            "https://picsum.photos/50",
+            "https://picsum.photos/50"
+          ],
+          "description": "Liked by 10,098"
+        },
+        "owner": {
+          "username": "teste123",
+          "photo": "https://picsum.photos/50"
+        },
+        "createdAt": "2022-04-21T12:32"
+      }
+    ]
+  },
+  "categories": [
+    {
+      "id": 1,
+      "cover": "https://picsum.photos/500",
+      "title": "Womans",
+      "items": 1232
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "title": "Large striped cardigan",
+      "price": 1080,
+      "brand": "Raf Simons",
+      "cover": "https://picsum.photos/500",
+      "categoryId": 1,
+      "type": "Shirts",
+      "description": "Enjoy the beauty of italian cotton all over your body. This item will fit your body and warm you up all over and during spring. This item will fit your body and warm you up all over and during spring.  And over and over again, this is the text.",
+      "sizes": [
+        {
+          "label": "P",
+          "value": "P"
+        },
+        {
+          "label": "M",
+          "value": "M"
+        },
+        {
+          "label": "G",
+          "value": "G"
+        },
+        {
+          "label": "XG",
+          "value": "XG"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Gucci Balaclava",
+      "price": 2500,
+      "brand": "Gucci",
+      "cover": "https://picsum.photos/500",
+      "categoryId": 1,
+      "type": "Balaclava",
+      "description": "Awesome product.",
+      "sizes": [
+        {
+          "label": "P",
+          "value": "P"
+        },
+        {
+          "label": "M",
+          "value": "M"
+        },
+        {
+          "label": "G",
+          "value": "G"
+        },
+        {
+          "label": "XG",
+          "value": "XG"
+        }
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "userId": 1,
+      "step": "waiting",
+      "createdAt": "2022-04-21T12:32",
+      "orderNumber": "1947034",
+      "trackingNumber": "IW3475453455",
+      "totalValue": 80.58,
+      "totalItems": 3
+    },
+    {
+      "userId": 3,
+      "step": "waiting",
+      "createdAt": "2022-04-22T11:42:10-03:00",
+      "orderNumber": 1650637813697,
+      "trackingNumber": 1650638530813,
+      "totalValue": 1079.2,
+      "totalItems": 1,
+      "id": 2
+    },
+    {
+      "step": "waiting",
+      "createdAt": "2022-04-22T12:29:54-03:00",
+      "orderNumber": 1650641359165,
+      "trackingNumber": 1650641394273,
+      "totalValue": 1079.2,
+      "totalItems": 1,
+      "id": 3
+    },
+    {
+      "userId": 4,
+      "step": "delivered",
+      "createdAt": "2022-04-22T12:43:33-03:00",
+      "orderNumber": 1650641635100,
+      "trackingNumber": 1650642213295,
+      "totalValue": 2485,
+      "totalItems": 1,
+      "id": 4
+    },
+    {
+      "userId": 4,
+      "step": "canceled",
+      "createdAt": "2022-04-22T12:43:33-03:00",
+      "orderNumber": 1650641635100,
+      "trackingNumber": 1650642213295,
+      "totalValue": 2485,
+      "totalItems": 1,
+      "id": 4
+    },
+    {
+      "userId": 4,
+      "step": "waiting",
+      "createdAt": "2022-05-13T21:53:16-03:00",
+      "orderNumber": 1652489372970,
+      "trackingNumber": 1652489596599,
+      "totalValue": 982,
+      "totalItems": 1,
+      "id": 5
+    }
+  ]
+}

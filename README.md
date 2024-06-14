@@ -1,79 +1,37 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+### Projeto React Native - LookApp
 
-# Getting Started
+Este projeto é uma aplicação mobile desenvolvida utilizando React Native, trata-se de uma ideia de rede social com marketplace, feito com as aulas do **DevClub**. Abaixo estão listadas as principais tecnologias utilizadas no desenvolvimento deste projeto, juntamente com uma breve descrição de cada uma.
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+### 👉 Tecnologias Utilizadas
 
-## Step 1: Start the Metro Server
+- **Styled-components:** Biblioteca para estilização de componentes em React Native, utilizando uma sintaxe baseada em CSS-in-JS.
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+- **react-native-vector-icons:** Biblioteca que fornece um conjunto de ícones personalizáveis para uso em aplicações React Native.
 
-To start Metro, run the following command from the _root_ of your React Native project:
+- **React Navigation:** Biblioteca para navegação entre telas em aplicativos React Native.
 
-```bash
-# using npm
-npm start
+- **Navigation Stack:** Parte do React Navigation que permite a navegação por pilha (stack navigation), onde as telas são empilhadas e desempilhadas, facilitando a navegação entre diferentes telas.
 
-# OR using Yarn
-yarn start
-```
+- **Navigation Drawer:** Parte do React Navigation que implementa um menu lateral (drawer navigation) que pode ser deslizado a partir da borda da tela.
 
-## Step 2: Start your Application
+- **Picker:** Componente para seleção de itens a partir de uma lista de opções.
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+- **react-native-stretchy:** Biblioteca que facilita a criação de cabeçalhos (headers) expansíveis e colapsáveis em aplicativos React Native.
 
-### For Android
+- **API com json-server:** Ferramenta para simular uma API RESTful utilizando arquivos JSON, útil para desenvolvimento e testes de funcionalidades de backend.
 
-```bash
-# using npm
-npm run android
+- **axios:** Biblioteca para realizar requisições HTTP, utilizada para comunicação com APIs.
 
-# OR using Yarn
-yarn android
-```
+- **React Native Async Storage:** Biblioteca para armazenamento persistente de dados no dispositivo, como armazenamento de chave-valor.
 
-### For iOS
+- **Card Validator:** Biblioteca para validação de números de cartões de crédito, garantindo que os números inseridos sigam os padrões de cartões válidos.
 
-```bash
-# using npm
-npm run ios
+- **API Context:** API do React para gerenciamento de estado global, permitindo o compartilhamento de dados entre componentes sem a necessidade de passar props manualmente.
 
-# OR using Yarn
-yarn ios
-```
+- **Moment:** Biblioteca para manipulação e formatação de datas e horas, facilitando operações como cálculo de diferenças e formatação de datas em diversos formatos.
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+### 👇 Apresentação
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+![Foto](src/assets//foto.png)
 
-## Step 3: Modifying your App
-
-Now that you have successfully run the app, let's modify it.
-
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+Este README fornece uma visão geral básica das tecnologias e ferramentas utilizadas no projeto. Para mais detalhes sobre a implementação de cada uma, consulte a documentação oficial das bibliotecas e ferramentas mencionadas.
